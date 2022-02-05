@@ -3,9 +3,12 @@
 
 #git init
 
+#git lfs install
+#git lfs track "*.jpg"
+#git add .
 #git lfs track "hello/**"
 
-git add "back/**"
-git commit -m "hello back"
+git add .
+git commit -m "hello back from web"
 
 git push -u origin main
